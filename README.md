@@ -1,11 +1,12 @@
-This simple movie API app is made for practicing DDD(Domain Driven Design) and TDD(Test Driven Development).
+Simple movie API project
+=============
 
-This app has 6 domains: member, movie, category, actor, review and grade. each domain has the following responsibilities,
-I will explain just member and movie domains simply, 
+simple movie API project입니다.
+해당 project는 영화 관련 API를 제공하는 스프링부트 웹 어플리케이션입니다. DDD와 TDD를 연습하기 위해 제작되었습니다. 
 
-the member domain is related with user informations. this domain has responsibilities of sign up, sign in, buying movie.
-and when users sign up this app, e-mail send event occurs. this event handler is seperated from the member domain.
+### 개발 환경
+해당 signaling server는 다음의 개발 환경에서 제작되었습니다.
+  - Spring boot - v2.1.2.RELEASE
 
-the movie domain is related with movie informations. this domain will be shown users their informations about grades, actors and etc.
-
-I made this app by TDD process that designing the domain, writing tests, and writing code that passes the tests.
+### 실행 방법
+IDE에 Import 후 스프링부트 내장 톰캣 실행
